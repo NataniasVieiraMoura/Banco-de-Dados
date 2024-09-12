@@ -1,0 +1,37 @@
+BD
+nomes dos campos entre crazes
+
+select * from cursos
+where nome = 'PHP';
+
+operador like(significa = parecido ou semelhante):
+select * from cursos--> selecione todos os cursos
+where nome like 'p%';  --> onde o nome começa por p
+
+select * from cursos
+where nome like '%a';--> onde o nome termine com a
+
+select * form cursos
+where nome like '%d%'--> onde o nome tem d
+
+
+update cursos set nome = 'PáOO' where idcursos = '9'
+
+
+clic duas vezes no resultado do select e editar diretamente
+na tabela
+
+select * from cursos
+where nome like 'PH%P';--> onde nome PH no inicio e um P no final 
+
+select * from cursos
+where nome like 'PH%P_'--> onde nome começa por
+PH e termina com P e termine com alguma coisa
+
+select * from cursos
+where nome like 'p_t%';--> onde nome tenha algo
+seguido de t
+
+
+% --> esse caracter não obriga que tenha algof
+_ --> esse caracter obriga que tenha algo 
